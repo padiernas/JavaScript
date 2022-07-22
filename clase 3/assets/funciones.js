@@ -49,3 +49,4 @@ multiplicar(5,10)
 let resultadoMultiplicacion=multiplicar(50,10)
 
 console.log(`El resultado de la multiplion es ${resultadoMultiplicacion}`)
+
