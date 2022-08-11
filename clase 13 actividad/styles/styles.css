@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.general{
+    color:  white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.element{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(7, 7, 7);
+    margin: 10px;
+    color: 000;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.element1{
+    width: 300px;
+    height: 300px;
+    background-color: #ff0b0b;
+    margin: 10px;
+    color: 000;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 5, 5);
+    font-size: 50px;
+}
