@@ -11,3 +11,15 @@ const obtenerNumero=()=>{
     }
 }
 obtenerNumero()
+
+const usuarios= ['Steven','Carlos','juan',];
+console.time('ciclo basico')
+for (let i = 0; i < usuarios.length; i++){
+    console.log(usuarios[i])
+}
+console.timeEnd('Ciclo básico')
+
+console.info(usuarios)
+
+console.assert(4>3, '4 es mayor que 3')
+console.assert(3>4, '3 es menor que 4')
